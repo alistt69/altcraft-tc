@@ -1,26 +1,34 @@
 <!DOCTYPE html>
-<html lang="ru">
-    <head>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Таблица с поиском</title>
+    <link rel="stylesheet" href="./styles">
+    <title>Titanic Passengers Table</title>
 </head>
 <body>
-<input type="text" id="search" placeholder="Поиск...">
-    <div class="table-container">
-        <table id="data-table">
-            <thead>
-            <tr>
-                <th>ID</th>
-                <th>Название</th>
-            </tr>
-            </thead>
-            <tbody id="table-body">
-            <!-- Данные будут вставлены сюда -->
-            </tbody>
-        </table>
-    </div>
-    <script src="script.js"></script>
+
+<input type="text" id="search" class="search-bar" placeholder="Search" />
+<table id="data-table">
+
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Class</th>
+        <th>Survived</th>
+        <th>Ticket</th>
+        <th>Cabin</th>
+        <th>From</th>
+    </tr>
+    </thead>
+
+    <tbody id="table-body">
+
+    </tbody>
+</table>
+
+<script src="./scripts"></script>
 </body>
 </html>

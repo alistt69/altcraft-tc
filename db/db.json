@@ -1,4 +1,4 @@
-export const data = [ {
+[ {
   "id": 1,
   "class": "1",
   "survived": true,
@@ -22269,5 +22269,3 @@ export const data = [ {
     "home.dest": ""
   }
 ]
-export default class data {
-}
